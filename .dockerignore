@@ -1,0 +1,7 @@
+node_modules
+.git
+.vscode
+__pycache__
+.gitignore
+Pipfile
+Pipfile.lock
