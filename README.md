@@ -11,9 +11,10 @@ docker-compose up --build
 
 ### [Development Environment] Execute Django commands
 ```
-docker-compose  web python 'django commands' for example:
-docker-compose  web python manage.py migrate
-docker-compose  web python manage.py load
+docker-compose run web python 'django commands' for example:
+docker-compose run web python manage.py migrate
+docker-compose run web python manage.py load
+docker-compose run web python manage.py makemigrations 
 ```
 
 ### sqlite data
